@@ -1,4 +1,4 @@
-# Node:7-alpine
+# Node:8-alpine
 
 ## Additional environment variables
 
@@ -29,14 +29,14 @@ docker run -d -p 80:80 \
 -e NODE_ENV=production \
 -e WORK_DIR=/var/www/api \
 -e DEBUG=*:* \
-seancheung/node:7-alpine npm start
+seancheung/node:8-alpine npm start
 ```
 
 ## Compose
 
 ```yml
  api:
-  image: "seancheung/node:7-alpine"
+  image: "seancheung/node:8-alpine"
   port: 
    - "80:80"
   volumes:
