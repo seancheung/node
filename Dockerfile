@@ -1,4 +1,4 @@
-FROM node:8-alpine
+FROM node:6-alpine
 MAINTAINER Sean Cheung <theoxuanx@gmail.com>
 
 COPY entrypoint.sh /entrypoint.sh
